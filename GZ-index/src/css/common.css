@@ -1,0 +1,675 @@
+/*头部header的样式*/
+.header-top a{display:block;
+	background: url(../../img/header-top.jpg) top center no-repeat;
+	width:100%;
+	height:70px;
+}
+.header-center{    
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.center-l a{
+	display: block;
+    font-family: '宋体';
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    float:left;
+    padding:8px 10px;
+    border-right:1px solid #ccc;
+}
+.center-l a.a1{
+	background: url(../../img/home_ico.png) center no-repeat;
+    width: 18px;
+     padding:8px 15px;
+    height: 15px;
+    border-left:1px solid #ccc;
+}
+.center-r{
+	padding-left:240px;
+}
+.center-r ul li{
+	position:relative;
+	float:left;
+	padding:8px;
+	color:#666;
+	background: url(../../img/bj.png) right -410px no-repeat;
+}
+.center-r ul li.li4{
+	background: #f2f2f2;
+	padding-right:4px;
+}
+.center-r ul li.li4 b{
+	position: absolute;
+    right: -6px;
+    top: 14px;
+    width: 0;
+    height: 0;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #666 #f2f2f2 #f2f2f2;
+    font-size: 0;
+    line-height: 0;
+}
+.center-r ul li i{
+	width:22px;
+	height:24px;
+	display:block;
+	padding-left:15px;
+	position:absolute;
+	top:1px;
+	background:url(../../img/bj.png) -26px -43px no-repeat;
+}
+.center-r ul li b{
+	position: absolute;
+    right: 10px;
+    top: 14px;
+    width: 0;
+    height: 0;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #666 #f2f2f2 #f2f2f2;
+    font-size: 0;
+    line-height: 0;
+}
+.center-r ul li em{
+    font-size: 14px;
+    font-family: arial;
+    line-height: 17px;
+    position: absolute;
+    left:90px;
+    color: #ca234f;
+    font-weight: 700;
+}
+.center-r ul li a{
+	color:#666;
+}
+.center-r ul li a.a3{
+	color:#666;
+	margin:0 38px;
+}
+.header-bottom{
+	padding:25px 0;
+	position:relative;
+}
+.bottom-c{
+	padding-left:20px;
+	padding-top:3px;
+}
+.bottom-c .txt{
+	float:left;
+	width:278px;
+}
+.bottom-c .txt input{
+	padding:8px 5px;
+	width:100%;
+	border: none;
+    background-color: #f0f0f0 
+}
+.bottom-c .sub {
+	padding:5px 25px;
+	float:left;
+    background-color: #ca224e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: '微软雅黑';
+    font-size: 16px;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+.hot-key a{
+	color:#666;
+}
+.hot-key a:hover{
+	color:#000;
+}
+.bottom-r{
+	position:absolute;
+	top:6px;
+	right:208px;
+}
+.shoplist{
+	width:210px;
+	padding:18px 55px;
+	background: #fff;
+	position:absolute;
+	top:100px;
+	right:200px;
+	display: none;
+	color:#666;
+}
+.daoHang ul li{
+	border-bottom:1px solid #ccc;
+	width:245px;
+	padding:20px 20px;
+	background: #fff;
+}
+.daoHang ul{
+	height:316px;
+	position:absolute;
+	top:100px;
+	right:247px;
+	display:none;
+
+}
+/*头部header的样式结束*/
+/*底部footer的样式开始*/
+.bag-list{
+	background: url(../../img/footer-bj.png) no-repeat;
+	height: 200px;
+    overflow: hidden;
+}
+.bag-list ul li{
+	float:left;
+	padding-right:58px;
+}
+.bag-list ul li h4{
+	height: 55px;
+    line-height: 55px;
+    padding-left: 104px;
+    color: #505051;
+    
+}
+.bag-list ul li .l-list{
+	height: 85px;
+    margin-left: 37px;
+    line-height: 200%;
+    color: #c8c8c8;
+}
+.bag-list ul li .l-btn{
+	text-align:center;
+}
+.bag-list ul li .l-btn a{
+	height: 25px;
+    display: inline-block;
+    padding: 0 8px 0 15px;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    background: #e61e56;
+    border-radius: 3px;
+}
+.bag-class a{
+	display: block;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+    color: #777;
+    padding-left: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    overflow: hidden;
+}
+.depart{
+	margin-top:30px;
+    border:1px solid #ccc;
+}
+.xiang-bao{
+    position:relative;
+    height:110px;
+    border-bottom:1px solid #ccc;
+}
+.xb-title{
+    width: 85px;
+    text-align: right;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-weight: 700;
+    background: #fff;
+    cursor: pointer;
+    color:#666;
+
+}
+.xb-list{
+    position: absolute;
+    top: 5px;
+    left: 86px;
+}
+.xb-list a{
+    display:inline;
+    font-weight: 500;
+    background:#fff;
+    margin:0 2px;
+
+}
+.xb-list{
+    color:#666;
+}
+.chang-he{
+    position:relative;
+    height:45px;
+    border-bottom:1px solid #ccc;
+}
+.feng-ge{
+    position:relative;
+    height:45px;
+}
+.bag-recom{
+    position:relative;
+    height:100px;
+}
+.xb-recom{
+    height:70px;
+}
+.bag-recom a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+    color: #777;
+    padding-left: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    overflow: hidden;
+}
+.bag-recom .xb-list a{
+    display:inline;
+    font-weight: 500;
+    background:#fff;
+    margin:0 2px;
+}
+.bag-recom .xb-list {
+    position:absolute;
+    top:36px;
+    left:80px;
+}
+.contact{
+    margin-top:30px;
+}
+.you-jian{
+    width: 420px;
+    height: 120px;
+    position: relative;
+    border-right: 1px solid #dedede;
+    float: left;
+}
+.you-jian span{
+    width: 86px;
+    height: 34px;
+    padding-top: 17px;
+    display: block;
+    position: absolute;
+    top: 42px;
+    left: 0;
+    background:url(../../img/bj.png) -176px -114px no-repeat;
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+    overflow: hidden;
+}
+.you-jian form{
+    top: 45px;
+    left: 0;
+    position: absolute;
+    padding-left: 85px;
+}
+.you-jian form .d-txt{
+    width: 195px;
+    float: left;
+    height: 32px;
+    border: 1px solid #cdcdcd;
+    background-color: #fff;
+    padding: 0 5px;
+    line-height: 32px;
+    border-right: 0;
+}
+.you-jian form .d-btn{
+    width: 50px;
+    height: 34px;
+    line-height: 33px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+.you-jian .d-more{
+    color: rgb(119, 119, 119);
+    width: 77px;
+    height: 34px;
+    line-height: 33px;
+    font-family: 宋体;
+    position: absolute;
+    top: 45px;
+    left: 345px;
+}
+.wei-xin{
+    width: 340px;
+    height: 120px;
+    border-right: 1px solid #dedede;
+    float: left;
+    background: url(../../img/wei_xin.png) top center no-repeat;
+}
+.guan-zhu{
+    width: 160px;
+    float: left;
+    padding: 20px 0 0 30px;
+    position:relative;
+}
+.guan-zhu .big-weixin{
+    position:absolute;
+    top:-245px;
+    left:-70px;
+    display:none;
+}
+.guan-zhu h3{
+    width: 86px;
+    height: 16px;
+    margin: 6px 20px 12px 0;
+    background:url(../../img/bj.png) -5px -67px no-repeat;
+}
+.guan-zhu a{
+    float:left;
+    width:50px;
+    height:30px;
+    background:#f66;
+}
+.guan-zhu .weixin{
+    border-right: 1px solid #e3e3e3;
+    background:url(../../img/bj.png) 13px -85px no-repeat;
+}
+.guan-zhu .qq{
+    width:45px;
+    border-right: 1px solid #e3e3e3;
+    background:url(../../img/bj.png) -32px -85px no-repeat;
+}
+.guan-zhu .lang{
+    background:url(../../img/bj.png) -66px -85px no-repeat;
+}
+.service ul li{
+    float:left;
+    width: 190px;
+    text-align: center;
+    border-right: 1px solid #ec6088;
+}
+.service ul li.sevli5{
+     border:0
+}
+.service ul li a{
+    background:#6f6;
+    display: inline-block;
+    height:25px;
+
+}
+.service{
+    height: 43px;
+    margin-top: 20px;
+    background: #e61e56;
+    padding-top: 15px;
+}
+.service ul li a.sev1{
+    width:80px;
+    background:url(../../img/bj.png) 0px -233px no-repeat;
+}
+.service ul li a.sev2{
+    width:80px;
+    background:url(../../img/bj.png) -139px -257px no-repeat;
+}
+.service ul li a.sev3{
+    width:170px;
+    background:url(../../img/bj.png) -83px -232px no-repeat;
+}
+.service ul li a.sev4{
+    width:120px;
+    background:url(../../img/bj.png) 0 -259px no-repeat;
+}
+.service ul li a.sev5{
+    width:100px;
+    height:28px;
+    background:url(../../img/bj.png) -156px -207px no-repeat;
+}
+.zhaopin{
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    border-bottom: 1px solid #ebebeb;
+}
+.zhaopin ul li{
+    border-right: 1px solid #dedede;
+    margin: 27px 10px 27px 0;
+    float: left;
+    padding: 0 32px 0 16px;
+    height: 93px;
+    line-height: 200%;
+    text-align: left;
+}
+.zhaopin ul li.zhaoli7{
+    border:0;
+    width:125px;
+    background:url(../../img/bj.png) 5px -114px no-repeat;
+}
+.zhaopin ul li i{
+    display:block;
+}
+.zhaopin ul li a{
+    display:block;
+    color: #999;
+}
+.banquan span{
+    text-align: center;
+    display:block;
+    color: #999;
+    padding-top: 15px;
+   
+}
+.foot-logo{
+    margin-left:230px;
+}
+.foot-logo ul li{
+    float:left;
+    font-size: 12px;
+     margin-top:20px;
+}
+.foot-logo ul li a{
+    margin: 20px 10px;
+    float:left;
+    color: #999;
+    line-height:25px;
+
+}
+.foot-logo ul li a.flog3{
+    height:35px;
+    width:67px;
+     background:url(../../img/bj.png) -120px -82px no-repeat;
+}
+.foot-logo ul li a.flog4{
+    height:35px;
+    width:50px;
+     background:url(../../img/bj.png) -157px -47px no-repeat;
+}
+.foot-logo ul li a.flog5{
+    height:52px;
+    width:52px;
+     background:url(../../img/bj.png) -108px -14px no-repeat;
+}
+.foot-logo ul li a.flog6{
+    height:40px;
+    width:52px;
+     background:url(../../img/bj.png) -57px -29px no-repeat;
+}
+.foot-logo ul li a.flog7{
+    height:42px;
+    width:52px;
+     background:url(../../img/bj.png) 0 -600px no-repeat;
+}
+/*底部结束样式*/
+/*导航样式开始*/
+#nav{
+    height: 35px;
+    width: 100%;
+    background: #d41c4f;
+    text-align: center;
+}
+.all{
+    width: 230px;
+    position: relative;
+}
+.all a{
+    width: 230px;
+    height: 35px;
+    display: block;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgb(172, 20, 63);
+    font-family: 宋体;
+    position: relative;
+    overflow: hidden;
+}
+.all2 ul li{
+    float: left;
+    width: 64px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+
+}
+.all2 ul li a{
+    display:block;
+    position: relative;
+    color: #fff;
+    margin: 0 0 0 -1px;
+    height: 35px;
+    line-height: 35px;
+    font-weight: 700;
+    font-family: 宋体;
+    font-size: 15px;
+}
+.all2 ul li a:hover {
+    background-color: rgb(172, 20, 63);
+}
+.all3 a{
+    display:block;
+    float:left;
+}
+.all3 a.he-huo{
+    width:120px;
+    height:35px;
+    background:#6f6 url(../../img/he_huo.gif)  no-repeat;
+}
+.all3 a.shou-ji{
+    width: 78px;
+    height: 35px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    text-indent: 38px;
+    line-height: 35px;
+}
+.bag-nav{
+    position:absolute;
+    top:35px;
+    left:0;
+    width:229px;
+    background-color:#fff;
+}
+.bag-nav ul li h3{
+    height: 38px;
+    line-height: 38px;
+    text-align:left;
+    
+}
+.bag-nav ul li h3 a{
+    background-color:#fff;
+    color:#666;
+    width:25%;
+    padding-top:2px;
+    display:inline-block;
+
+}
+.bag-nav ul li h3 i.i1{
+    width:20px;
+    height:20px;
+    overflow:hidden;
+    background:url(../../img/bj.png) -126px -349px no-repeat;
+    float:left;
+    margin:10px 10px 9px 20px;
+
+}
+.bag-nav ul li h3 i.i2{
+    width:20px;
+    height:20px;
+    overflow:hidden;
+    background:url(../../img/bj.png) -185px -21px no-repeat;
+    float:right;
+    margin:10px 10px 9px 20px;
+
+}
+.bag-nav ul li .bag-nav-1{
+    height:50px;
+    padding-left:50px;
+    padding-bottom:2px;
+    border-bottom:1px solid #ccc;
+}
+.bag-nav ul li .bag-nav-1 a{
+    float: left;
+    width:40px;
+    line-height:20px;
+    height:20px;
+    color: #666;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight:normal;
+    background-color:#fff;
+   
+}
+.margin2{
+    width:1200px;
+    margin:0 auto;
+}
+.bag-nav .more-bag{
+    position:absolute;
+    left:235px;
+    padding:25px;
+   
+}
+
+.more-logo h3{
+    text-align:left;
+    color:#d41c4f;
+    padding:25px 0 10px 0;
+}
+.band-list ul{
+    height:83px;
+    width:707px;
+    border-right:1px solid #ccc;
+    border-top:1px solid #ccc;
+}
+
+.band-list ul li{
+    height:81px;
+    float:left;
+    width:100px;
+    border-bottom:1px solid #ccc;
+    border-left:1px solid #ccc;
+}
+.band-list ul li p{
+    text-align:center;
+    color:#ccc;
+}
+
+.more-word ul li a{
+    color:#666;
+    font:500 12px/14px "";
+    text-align:left;
+    float:left;
+    width:60px;
+    background:#fff;
+    position:static;
+}
+.more-word ul li{
+    border-bottom:1px dotted #ccc;
+     height:83px;
+    width:320px;
+    float:left;
+    margin-right:34px;
+}
+.more-word h3{
+    color:#d41c4f;
+    padding-top:10px;
+}

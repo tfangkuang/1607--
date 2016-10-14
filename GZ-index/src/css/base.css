@@ -1,0 +1,139 @@
+/*
+* @Author: far
+* @Date:   2016-09-28 18:02:14
+* @Last Modified by:   far
+* @Last Modified time: 2016-10-10 00:40:10
+*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; display:block;}
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif;outline:none }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;} 
+/* css common */
+.clear:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clear{ *zoom:1; }
+.margin{width:1200px; margin:0 auto;}
+.left{float:left;}
+.right{float:right;}
+
+
+
+/*公告栏*/
+
+
+#banner .w {
+    z-index: 2;
+    position: relative;
+}
+
+#banner .notice {
+    position: absolute;
+    right: 0px;
+    margin: 9px auto 11px;
+    width: 200px;
+    height: 360px;
+    overflow: hidden;
+    background-color: #ffffff;
+    z-index: 1000;
+}
+#banner .notice h2 {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+#banner .notice a {
+    color: #666;
+    font-size: 12px;
+}
+
+#banner .notice .icon-trum {
+    display: inline-block;
+    width: 16px;
+    height: 36px;
+    margin-right: 8px;
+    vertical-align: middle;
+    font-weight: normal;
+    background: url(http://img1.zhongjiu.com.cn/indexImg/perm/icon_index.png) -240px -73px no-repeat;
+}
+#banner .notice ul {
+    height: 120px;
+    padding: 4px 10px 20px;
+    background-color: #fff9e9;
+}
+
+#banner .notice ul li {
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+}
+#banner .notice ul li:first-child a {color: #b81c22;}
+
+#banner .notice b {
+    margin-right: 0.5em;
+    font-weight: bold;
+}
+
+
+
+#goodsBg .hasGoods .head div {
+    float: left;
+}
+#goodsBg .hasGoods .head .d1 {
+    width: 412px;
+    margin-left: 78px;
+}
+#goodsBg .hasGoods .head .d2 {width: 152px;}
+#goodsBg .hasGoods .head .d3 {
+    width: 174px;
+}
+#goodsBg .hasGoods .head .d4 {
+    width: 148px;
+}
+#goodsBg .hasGoods .head .d5 {
+    width: 40px;
+}
+#goodsBg .hasGoods .goods .carinfo {
+    height: 18px;
+    padding: 10px 20px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #333;
+    text-align: right;
+}
+#goodsBg .hasGoods .goods .carinfo span {
+    margin-left: 20px;
+}
+#goodsBg .hasGoods .goods {border: 1px solid #eaeaea;}
+#goodsBg .hasGoods .goods .carinfotitle {
+    padding: 10px 0;
+}
+#goodsBg .hasGoods .goods .carinfotitle span.s1 {
+    width: 68px;
+    height: 30px;
+    margin-right: 12px;
+    text-align: center;
+    color: #d22147;
+    background: url(../images/manjianIcons.png) no-repeat -10px -10px;
+    font-size: 14px;
+}
+
+#goodsBg .hasGoods .goods .carinfotitle span.s2 {color: #999;}
+#goodsBg .hasGoods .goods .carinfotitle span {float: left;line-height: 30px;font-size: 14px;}
+#goodsBg .hasGoods .goods .carinfotitle span.s2 i {
+    color: #d22147;
+}
+
+#goodsBg .hasGoods .goods .carinfotitle span {
+    float: left;
+    line-height: 30px;
+    font-size: 14px;
+}
